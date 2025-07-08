@@ -1,3 +1,22 @@
+# Ignore Python junk
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pkl
+
+# Ignore Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Ignore virtual environment
+venv/
+
+# Ignore macOS system file
+.DS_Store
+
+# Ignore outputs or reports
+outputs/
+# *.csv
+*.xlsx
 venv/
 __pycache__/
 .ipynb_checkpoints/
